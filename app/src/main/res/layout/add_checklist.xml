@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checklist_task"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/checklistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:padding="10dp"
+        android:hint="@string/checklist_name"/>
+
+    <TextView
+        android:id="@+id/checklistType"
+        android:layout_below="@+id/checklistName"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/type"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checklistType"
+        android:scrollbarAlwaysDrawHorizontalTrack="true">
+        <RadioGroup
+            android:id="@+id/icon_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/shop"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_shop"
+                android:drawableEnd="@drawable/ic_shop"/>
+            <RadioButton
+                android:id="@+id/trip"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_trip"
+                android:drawableEnd="@drawable/ic_trip"/>
+            <RadioButton
+                android:id="@+id/party"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_party"
+                android:drawableEnd="@drawable/ic_party"/>
+            <RadioButton
+                android:id="@+id/meeting"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_meeting"
+                android:drawableEnd="@drawable/ic_meeting"/>
+            <RadioButton
+                android:id="@+id/pet"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_pet"
+                android:drawableEnd="@drawable/ic_pet"/>
+        </RadioGroup>
+    </HorizontalScrollView>
+
+</RelativeLayout>
