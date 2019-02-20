@@ -16,10 +16,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import pl.wicher.easiestchecklist.Adapters.CheckListItemAdapter;
-import pl.wicher.easiestchecklist.Model.CheckItem;
-import pl.wicher.easiestchecklist.Repo.CheckItemRepo;
-import pl.wicher.easiestchecklist.Repo.ChecklistRepo;
+import pl.wicher.easiestchecklist.adapters.CheckListItemAdapter;
+import pl.wicher.easiestchecklist.model.CheckItem;
+import pl.wicher.easiestchecklist.repo.CheckItemRepo;
+import pl.wicher.easiestchecklist.repo.ChecklistRepo;
 
 public class CheckListActivity extends AppCompatActivity {
 

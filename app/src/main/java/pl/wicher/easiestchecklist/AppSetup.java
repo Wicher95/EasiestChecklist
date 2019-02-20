@@ -3,8 +3,8 @@ package pl.wicher.easiestchecklist;
 import android.app.Application;
 import android.content.Context;
 
-import pl.wicher.easiestchecklist.DataBase.DBHelper;
-import pl.wicher.easiestchecklist.DataBase.DatabaseManager;
+import pl.wicher.easiestchecklist.database.DBHelper;
+import pl.wicher.easiestchecklist.database.DatabaseManager;
 
 public class AppSetup extends Application {
 

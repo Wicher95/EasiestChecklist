@@ -16,9 +16,9 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import pl.wicher.easiestchecklist.Adapters.CheckListAdapter;
-import pl.wicher.easiestchecklist.Model.Checklist;
-import pl.wicher.easiestchecklist.Repo.ChecklistRepo;
+import pl.wicher.easiestchecklist.adapters.CheckListAdapter;
+import pl.wicher.easiestchecklist.model.Checklist;
+import pl.wicher.easiestchecklist.repo.ChecklistRepo;
 
 public class MainActivity extends AppCompatActivity {
 

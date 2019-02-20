@@ -1,14 +1,14 @@
-package pl.wicher.easiestchecklist.DataBase;
+package pl.wicher.easiestchecklist.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import pl.wicher.easiestchecklist.Model.CheckItem;
-import pl.wicher.easiestchecklist.Model.Checklist;
-import pl.wicher.easiestchecklist.Repo.CheckItemRepo;
-import pl.wicher.easiestchecklist.Repo.ChecklistRepo;
+import pl.wicher.easiestchecklist.model.CheckItem;
+import pl.wicher.easiestchecklist.model.Checklist;
+import pl.wicher.easiestchecklist.repo.CheckItemRepo;
+import pl.wicher.easiestchecklist.repo.ChecklistRepo;
 
 
 public class DBHelper extends SQLiteOpenHelper {

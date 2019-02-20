@@ -1,4 +1,4 @@
-package pl.wicher.easiestchecklist.Model;
+package pl.wicher.easiestchecklist.model;
 
 public class Checklist {
     public static final String TAG = Checklist.class.getSimpleName();

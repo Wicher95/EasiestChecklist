@@ -1,4 +1,4 @@
-package pl.wicher.easiestchecklist.Adapters;
+package pl.wicher.easiestchecklist.adapters;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -17,9 +17,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import pl.wicher.easiestchecklist.CheckListActivity;
-import pl.wicher.easiestchecklist.Model.CheckItem;
+import pl.wicher.easiestchecklist.model.CheckItem;
 import pl.wicher.easiestchecklist.R;
-import pl.wicher.easiestchecklist.Repo.CheckItemRepo;
+import pl.wicher.easiestchecklist.repo.CheckItemRepo;
 
 public class CheckListItemAdapter extends BaseAdapter {
 

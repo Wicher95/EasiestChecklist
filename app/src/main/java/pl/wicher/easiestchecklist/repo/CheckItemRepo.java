@@ -1,4 +1,4 @@
-package pl.wicher.easiestchecklist.Repo;
+package pl.wicher.easiestchecklist.repo;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -6,9 +6,9 @@ import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
 
-import pl.wicher.easiestchecklist.DataBase.DatabaseManager;
-import pl.wicher.easiestchecklist.Model.CheckItem;
-import pl.wicher.easiestchecklist.Model.Checklist;
+import pl.wicher.easiestchecklist.database.DatabaseManager;
+import pl.wicher.easiestchecklist.model.CheckItem;
+import pl.wicher.easiestchecklist.model.Checklist;
 
 public class CheckItemRepo {
 

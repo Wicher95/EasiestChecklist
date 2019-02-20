@@ -1,4 +1,4 @@
-package pl.wicher.easiestchecklist.DataBase;
+package pl.wicher.easiestchecklist.database;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
